@@ -1,0 +1,24 @@
+#single-product .product-info {
+  max-height: 320px;
+}
+#single-product .product-info .product-main-info .title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+  color: #ff5722;
+  text-transform: capitalize;
+}
+#single-product .product-info .product-main-info .about {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+#single-product .product-info .product-main-info .desc {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+#single-product .product-info .product-more-info .price {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=SingleProduct.css.map */

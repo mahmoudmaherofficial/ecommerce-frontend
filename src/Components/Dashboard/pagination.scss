@@ -1,0 +1,35 @@
+// $danger:#ff5722;
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+.pagination-link {
+  @extend .btn;
+  @extend .btn-sm;
+  @extend .rounded-pill;
+  @extend .px-1;
+  border: 1px solid #ff5722;
+  color: #ff5722;
+  width: 30px;
+  height: 30px;
+}
+.pagination-link:hover,
+.pagination-link.active {
+  @extend .text-white;
+  background-color: #ff5722;
+}
+.navigation-link {
+  @extend .btn;
+  @extend .btn-sm;
+  @extend .rounded-pill;
+  border: 1px solid #ff5722;
+  color: #ff5722;
+}
+.navigation-link:hover,
+.navigation-link.active {
+  @extend .text-white;
+  background-color: #ff5722;
+}
+.pagination-panel{
+  @media (max-width: 991px) {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

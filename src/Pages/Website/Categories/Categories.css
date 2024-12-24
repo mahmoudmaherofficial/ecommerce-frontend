@@ -1,0 +1,34 @@
+#categories {
+  background-color: rgba(255, 86, 34, 0.0823529412);
+  min-height: 100vh;
+}
+#categories .categories-list .title {
+  color: #ff5722 !important;
+}
+#categories .categories-list .category-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+}
+#categories .categories-list .category-item:hover {
+  background-color: #ccc;
+}
+#categories .categories-list .category-item.active {
+  background-color: #ccc;
+}
+#categories .categories-list .category-item .image {
+  width: 50px;
+  height: 35px;
+  overflow: hidden;
+}
+#categories .categories-list .category-item img {
+  width: 100%;
+}/*# sourceMappingURL=Categories.css.map */

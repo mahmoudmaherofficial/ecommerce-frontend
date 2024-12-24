@@ -1,0 +1,36 @@
+#categories {
+  background-color: #ff562215;
+  min-height: 100vh;
+  .categories-list {
+    .title {
+      color: #ff5722 !important;
+    }
+    .category-item {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      gap: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      height: 100%;
+      &:hover {
+        background-color: #ccc;
+      }
+      &.active {
+        background-color: #ccc;
+      }
+      .image{
+        width: 50px;
+        height: 35px;
+        overflow: hidden;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

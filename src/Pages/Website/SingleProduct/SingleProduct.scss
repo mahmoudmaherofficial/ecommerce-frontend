@@ -1,0 +1,30 @@
+#single-product {
+  .product-info {
+    max-height: 320px;
+    .product-main-info {
+      .title {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 0.2rem;
+        color: #ff5722;
+        text-transform: capitalize;
+      }
+      .about {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+      }
+      .desc {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+      }
+    }
+    .product-more-info {
+      .price {
+        font-size: 1.2rem;
+        margin-top: 10px;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

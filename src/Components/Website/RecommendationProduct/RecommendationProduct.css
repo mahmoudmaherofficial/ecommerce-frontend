@@ -1,0 +1,50 @@
+.products-container .recommendation-product {
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  color: inherit;
+}
+.products-container .recommendation-product .image {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+.products-container .recommendation-product .image img {
+  width: auto;
+  height: 100%;
+  transition: 0.5s ease-in-out;
+}
+.products-container .recommendation-product .product-info {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-height: 100px;
+}
+.products-container .recommendation-product .product-info .product-details .title {
+  color: #ff5722;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.products-container .recommendation-product .product-info .product-details .desc {
+  text-transform: lowercase;
+}
+.products-container .recommendation-product:hover .image img {
+  transform: scale(1.1) rotate(2deg);
+}
+.products-container .recommendation-product:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 1px;
+  background-color: gray;
+  border-radius: 10px;
+}/*# sourceMappingURL=RecommendationProduct.css.map */

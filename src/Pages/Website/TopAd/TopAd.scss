@@ -1,0 +1,37 @@
+#top-ad {
+  background: linear-gradient(to right, #ff00b0 10%, #fff 70%);
+
+  min-height: 50vh;
+  .container {
+    min-height: 50vh;
+    .text-content {
+      font-weight: 900;
+      color: #fff !important;
+      button {
+        background-color: transparent;
+        border-color: #fff;
+        font-size: 20px;
+        &:hover {
+          background-color: #fff;
+          color: #ff00b0;
+        }
+      }
+    }
+    .img-container {
+      width: 300px;
+    }
+  }
+  @media (max-width: 991px) {
+    background: linear-gradient(#ff00b0, #fff 40%);
+    .container {
+      min-height: 50vh;
+      padding: 30px 0;
+      gap: 120px;
+      .text-content {
+        font-weight: 900;
+        font-size: 24px;
+        align-items: center !important;
+      }
+    }
+  }
+}
