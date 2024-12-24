@@ -140,7 +140,7 @@ export default function MainNavBar() {
                 <div onClick={handleShow} className="link text-muted" to={'/cart'} title="cart">
                   <i className="fad fa-shopping-cart"></i>
                 </div>
-                <Link className="link text-muted" to={'/profile'} title="profile">
+                <Link className="link text-muted" to={'/dashboard'} title="profile">
                   <i className="fad fa-user"></i>
                 </Link>
               </div>
