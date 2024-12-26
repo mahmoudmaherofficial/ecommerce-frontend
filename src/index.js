@@ -15,7 +15,7 @@ import MenuContext from './Context/MenuContext';
 import WindowContext from './Context/WindowContext';
 import CartReloadingContext from './Context/CartReloadingContext';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('ecommerce'));
 root.render(
   <WindowContext>
     <MenuContext>
@@ -24,6 +24,6 @@ root.render(
           <App />
         </Router>
       </CartReloadingContext>
-    </MenuContext>  
+    </MenuContext>
   </WindowContext>
 );
